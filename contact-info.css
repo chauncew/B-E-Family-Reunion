@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-attachment: fixed;
+    background-image: url(contacts-info.jpg);
+    background-repeat: no-repeat;
+    background-image: center center/cover;
+}
+
+.heading {
+    text-align: center;
+    font-family: 'Merienda', cursive;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    margin: 125px 0px 0px 200px;
+    font-family: 'Courgette', cursive;
+
+}
+
+.motto {
+    display: flex;
+    font-family: 'Courgette', cursive;
+    justify-content: flex-end;
+    padding-right: 100px;
+}
+
+.committee {
+    display: flex;
+    font-family: 'Courgette', cursive;
+    justify-content: center;
+    margin-top: 100px;
+
+
+}

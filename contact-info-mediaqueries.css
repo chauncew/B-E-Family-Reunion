@@ -1,0 +1,44 @@
+@media (min-width: 300px) and (max-width: 640px) {
+    .heading {
+       color: maroon;
+    }
+
+    .contacts, .motto {
+        color: maroon;
+        font-size: 20px;
+        padding-left: 5px;
+    }
+
+    .committee {
+        color: maroon;
+        font-size: 20px;
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    body {
+        color: maroon;
+    }
+    
+    .heading {
+        padding-top: 20px;
+    }
+
+    .contacts {
+        font-size: 21px;
+        font-weight: bold;
+        padding-right: 400px;
+    }
+
+    .motto {
+        padding: 100px 50px 0px 0px;
+        font-size: 20px;
+        
+    }
+
+    .committee {
+        font-size: 20px;
+        text-align: center;
+    }
+}
